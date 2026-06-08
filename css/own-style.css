@@ -65,3 +65,13 @@
     }
 
 }
+
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        border-color: #000;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+}

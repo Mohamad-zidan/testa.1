@@ -44,3 +44,24 @@
 .credit{
     text-align: center;
 }
+
+
+
+
+@media (max-width: 991.98px) {
+
+    .navbar {
+        background-color: white !important;
+    }
+
+    .navbar .nav-link,
+    .navbar .navbar-brand,
+    .navbar .dropdown-toggle {
+        color: black !important;
+    }
+
+    .navbar .bi-house-fill {
+        color: black !important;
+    }
+
+}

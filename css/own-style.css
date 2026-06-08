@@ -47,23 +47,29 @@
 
 
 
-
 @media (max-width: 991.98px) {
 
-    .navbar {
+    .navbar.blue {
         background-color: white !important;
     }
 
-    .navbar .nav-link,
-    .navbar .navbar-brand,
-    .navbar .dropdown-toggle {
+    .navbar.blue .nav-link,
+    .navbar.blue .navbar-brand,
+    .navbar.blue .dropdown-toggle {
         color: black !important;
     }
 
-    .navbar .bi-house-fill {
+    .navbar.blue .bi-house-fill {
         color: black !important;
     }
 
+    .navbar-toggler {
+        border-color: #000;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
 }
 
 @media (max-width: 991.98px) {
